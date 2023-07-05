@@ -1,9 +1,9 @@
 {
-  "name": "advpng-bin",
+  "name": "@imagemin-global/advpng-bin",
   "version": "7.0.0",
   "description": "AdvPNG bin-wrapper that makes it seamlessly available as a local dependency",
   "license": "MIT",
-  "repository": "imagemin/advpng-bin",
+  "repository": "@imagemin-global/advpng-bin",
   "type": "module",
   "exports": "./index.js",
   "author": {
@@ -64,5 +64,8 @@
     "execa": "^6.1.0",
     "tempy": "^3.0.0",
     "xo": "^0.48.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
